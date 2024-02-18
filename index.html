@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/reset_css.css">
+   <link rel="stylesheet" href="css/fonts_style.css">
+   <link rel="stylesheet" href="css/style.css">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap" rel="stylesheet">
+   <script src="app.js" defer></script>
+   <title>Hobby</title>
+</head>
+<body>
+   <div class="container">
+      <header class="header">
+         <div class="name" id="home">
+            <img src="img/icons/logo.svg" alt="Logo user-select">
+            <h1 class="hobby">Hobby</h1>
+         </div>
+         <nav class="navigation">
+            <ul class="nav-list">
+               <li ><a href="#" onmouseover="addUnderline(this)" onmouseout="removeUnderline(this)">Home</a></li>
+               <li><a href="#aboutUs" class="smooth-scroll">About Us</a></li>
+               <li><a href="#service" class="smooth-scroll">Service</a></li>
+               <li><a href="#contact" class="smooth-scroll">Contact</a></li>
+            </ul>
+            <button class="login">
+               Login
+            </button>
+
+            <button class="close">
+               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                  <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+               </svg>
+            </button>
+         </nav>
+         <button class="burger-menu" id="burger-menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+               <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+         </button>
+         <img src="img/icons/flow1.svg" alt="" class="flow1 user-select">
+         <div class="bcg1"></div>
+         <div class="bcg2"></div>
+      </header>
+
+      <main class="main">
+         <section class="beautiful">
+            <h2 class="beautiful__tagline">Make a <span>Beautiful Garden</span> with Your own Hand</h2>
+            <p class="beautiful__litleText">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,</p>
+            
+               <button class="shopNow btn hover-btn">
+                  <a href="#dreamplant" class="smooth-scroll shopNowLink user-select">
+                     <span>Show Now</span>
+                     <img src="img/icons/arow.svg" alt="">
+                  </a>
+               </button>
+            <img src="img/icons/arrowSpiral.svg" alt="" class="arrow_spiral user-select">
+
+            <div class="woman1">
+               <img src="img/picture/woman1.png" alt="" class="woman_img user-select">
+               <div class="bcg3"></div>
+            </div>
+            <img src="img/picture/cactus.png" alt="" class="cactus user-select">
+         </section>
+
+         <section class="achievements">
+            <div class="bcg4"></div>
+            <img src="img/picture/flow2.png" alt="" class="flow2 user-select">
+            <div class="ahievments__row">
+               <div class="servis_text">
+                  <h2 class="main-text">We Give Awesome Landscape Service.</h2>
+                  <p class="second-text">It is a long established fact that a reader will be distracted by the thing.</p>
+               </div>
+
+               <div class="achievmentsInNumbers">
+                  <div class="twentyfive">
+                     <h3 class="count count25">25+</h3>
+                     <p class="whatDoing">Complete Project Per Month.</p>
+                  </div>
+                  <div class="ten">
+                     <h3 class="count count10">10+</h3>
+                     <p class="whatDoing">Years Practical Experience.</p>
+                  </div>
+                  <div class="sixten">
+                     <h3 class="count count60">60+</h3>
+                     <p class="whatDoing">Awesome Team Members.</p>
+                  </div>
+               </div>
+            </div>   
+         </section>
+
+         <section class="professional" id="aboutUs">
+            <div class="main_professional__info">
+               <h2 class="professional__title">We Are Professional Gardener!</h2>
+               <p class="professional__description">Morbi magna metus, scelerisque at risus a, tristique laoreet orci. Duis posuere eros vel dui pulvinar, pulvinar molestie erat iaculis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia.</p>
+
+               <button class="btn user-select hover-btn btnReadMore"> 
+                  <a href="#" class="readMoreLink">
+                     <span>Read More</span>
+                     <img src="img/icons/arow.svg" alt="Button ReadMore">
+                  </a>
+               </button>
+
+               <img src="img/icons/arrowSpiral.svg" alt="" class="arrow_spiral2 user-select">
+            </div>
+
+            <img src="img/picture/woman2.png" alt="" class="woman2 user-select">
+         </section>
+         
+         <section class="professional-service" id="service">
+            <div class="service__info_text">
+               <h2 class="service__title">Professional Service</h2>
+               <p class="service__descripiton margin">
+                  
+                  There are many variations of passages of Lorem Ipsum available,  Duis posuere eros vel dui pulvinar, pulvinar molestie erat iaculis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posue<br><br>Mauris vel auctor enim many variations. There are many variations of passages of Lorem Ipsum.
+               </p>
+
+               <button class="btn btnReadMore hover-btn user-select">
+                  <a href="#" class="readMoreLink">
+                     <span>Read More</span>
+                     <img src="img/icons/arow.svg" alt="Arrow">
+                  </a>
+               </button>
+
+               <img src="img/icons/arrowSpiral.svg" alt="Arrow spiral" class="arrow_spiral3 user-select">
+            </div>
+
+            <div class="service__info_galery">
+               
+               <div class="card__collection1">
+                  <div class="card__plant1 card_style">
+                     <div class="card-row card_style">
+                        <img src="img/icons/plants1test.svg" alt="icon" class="">
+                        <span>Plant Threes</span>
+                        <p>There are many<br>variations of passages long established fact reader</p>
+                     </div> 
+                  </div>
+               </div>
+
+               <div class="card__collection2">
+                  <div class="card__purning">
+                     <div class="card-row card_style">
+                        <img src="img/icons/purningtest.svg" alt="icon">
+                        <span>Pruning plants</span>
+                        <p>There are many of the variations of passages long established fact reader</p>
+                     </div>
+                  </div>
+
+                  <div class="card__plant2">
+                     <div class="card-row card_style">
+                        <img src="img/icons/plants2test.svg" alt="icon">
+                        <span>Plants Threes</span>
+                        <p>There are many<br>variations of passages long established fact reader</p>
+                     </div>   
+                  </div>
+               </div>
+
+               <img src="img/icons/elipsorange.svg" alt="" class="elipsorange"></img>
+               <img src="img/icons/elipsgreen.svg" alt="" class="elipsgreen1"></img>
+               <img src="img/icons/elipsgreen2.svg" alt="" class="elipsgreen2"></img>
+
+            </div>
+         </section>
+
+         <section class="dreamplant">
+
+            <h3 class="dreamplant__title">Choose your Dream Plant</h3>
+            <p class="dreamplant__description">Many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,</p>
+
+            <div class="dreamplant__cards">
+
+               <div class="dreamplant_card">
+                  <img src="img/picture/flow3.png" alt="">
+                  <p class="card-name">Indoors Tropical Plant</p>
+                  <div class="rating">
+                     <img src="img/icons/stars.svg" alt="">
+                     <span class="ratingThisFlow">5.0 (134)</span>
+                  </div>
+                  <div class="footer-card">
+                     <div class="price">
+                        <p class="prices">Price</p>
+                        <p class="coast">$150</p>
+                     </div>
+                     <button class="button-card"><span>Add to Cart</span></button>
+                  </div>
+               </div>
+               <div class="dreamplant_card">
+                  <img src="img/picture/flow4.png" alt="">
+                  <p class="card-name">Monstera Deliciosa Care</p>
+                  <div class="rating">
+                     <img src="img/icons/stars.svg" alt="">
+                     <span class="ratingThisFlow">5.0 (120)</span>
+                  </div>
+                  <div class="footer-card">
+                     <div class="price">
+                        <p class="prices">Price</p>
+                        <p class="coast">$200</p>
+                     </div>
+                     <button class="button-card"><span>Add to Cart</span></button>
+                  </div>
+               </div>
+               <div class="dreamplant_card">
+                  <img src="img/picture/flow5.png" alt="">
+                  <p class="card-name">Indoors Leaf Potted</p>
+                  <div class="rating">
+                     <img src="img/icons/stars.svg" alt="">
+                     <span >5.0 (183)</span>
+                  </div>
+                  <div class="footer-card">
+                     <div class="price">
+                        <p class="prices">Price</p>
+                        <p class="coast">$150</p>
+                     </div>
+                     <button class="button-card"><span>Add to Cart</span></button>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <section class="submit-application"  id="dreamplant">
+            <div class="submit-application__row">
+               <h3 class="application__title">Ready to bring idea for your garden?</h3>
+
+               <p class="application__description">I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete</p>
+
+               <form>
+                  <input type="email" name="email" placeholder="Inter your email" required>
+               
+                  <button type="submit" id="butotnSubscribe" class="hover-btn">Subscribe</button>
+               </form>
+
+               <div class="bcg5"></div>
+               <div class="bcg6"></div>
+            </div>
+         </section>
+
+      </main>
+
+      <footer class="footer">
+
+         <div class="info">
+            <div class="companyInfo">
+               <div class="companyInfo__title">
+                  <a href="#home" class="smooth-scroll">
+                     <img src="img/icons/mainIcon.png" alt="">
+                     <h3>Hobby</h3>
+                  </a>
+               </div>
+               <p class="companyInfo__description">
+                  There are many variations of pass is ages of Lorem  available, but the majority have suffered alteration in  injected humour.
+               </p>
+               <div class="social-media">
+                  <div class="facebook click"><a href="#"><img src="img/icons/facebook.svg" alt=""></a></div>
+                  <div class="twitter click"><a href=""><img src="img/icons/twitter.svg" alt=""></a></div>
+                  <div class="pinterest click"><a href=""><img src="img/icons/pinterest.svg" alt=""></a></div>
+                  <div class="linkedin click"><a href=""><img src="img/icons/linkedin.svg" alt=""></a></div>
+               </div>
+            </div>
+            <div class="additional__info">
+               <div class="company">
+                  <ul>
+                     <li class="open"><h4>Company</h4> <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                           <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                        </svg>
+                     </span> </li>
+                     <li class="delet-element"><a href="#">About</a></li>
+                     <li class="delet-element"><a href="#">History</a></li>
+                     <li class="delet-element"><a href="#">Vision & Mission</a></li>
+                     <li class="delet-element"><a href="#">Career</a></li>
+                     <li class="delet-element"><a href="#">Legal Notice</a></li>
+                     <li class="delet-element"><a href="#">Blog & News</a></li>
+                  </ul>
+               </div>
+               <div class="support">
+                  <ul>
+                     <li class="open"><h4>Support</h4> <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                           <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                        </svg>
+                     </span></li>
+                     <li class="delet-element"><a href="#">Contact</a></li>
+                     <li class="delet-element"><a href="#">FAQ</a></li>
+                     <li class="delet-element"><a href="#">Help Center</a></li>
+                     <li class="delet-element"><a href="#">Privacy Policy</a></li>
+                     <li class="delet-element"><a href="#">Term & Service</a></li>
+                     <li class="delet-element"><a href="#">Community</a></li>
+                  </ul>
+               </div>
+               <div class="contact" id="contact">
+                  <ul>
+                     <li class="open"><h4>Contact</h4> <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                           <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                        </svg>
+                     </span> </li>
+                     <li class="delet-element">Mirabazar-Subhanighat<br>Rd, Sylhet-Bangladesh</li>
+                     <li class="delet-element"><h5>Email Us</h5></li>
+                     <li class="delet-element">useremail@gmail.com</li>
+                     <li class="delet-element"><h5>Call Us</h5></li>
+                     <li class="delet-element">+6221.2002.2012</li>
+                  </ul>
+               </div>
+            </div>
+            
+         </div>
+
+         <div class="decoration">
+            <img src="img/icons/line.svg" alt="" class="line">
+            <div class="flow-collection">
+               <div><img src="img/picture/footerflow1.svg" alt="" class="footer-flow1"></div>
+               <div><img src="img/picture/footerflow2.svg" alt="" class="footer-flow2"></div>
+               <div><img src="img/picture/footerflow3.svg" alt="" class="footer-flow3"></div>
+               <div><img src="img/picture/footerflow4.svg" alt="" class="footer-flow4"></div>
+               <div><img src="img/picture/footerflow5.svg" alt="" class="footer-flow5"></div>
+            </div>
+            <div class="bcg7"></div>
+            <div class="bcg8"></div>
+         </div>
+
+      </footer>
+   </div>
+</body>
+</html>

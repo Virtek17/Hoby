@@ -1,0 +1,39 @@
+<svg width="1150.723633" height="1098.321777" viewBox="0 0 1150.72 1098.32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_2_679_dd" x="359.581177" y="166.506836" width="791.142456" height="791.142395" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="77.3333" result="effect_layerBlur_1"/>
+		</filter>
+		<filter id="filter_2_680_dd" x="30.655396" y="240.120605" width="791.142395" height="791.142334" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="77.3333" result="effect_layerBlur_1"/>
+		</filter>
+		<filter id="filter_2_681_dd" x="0.000000" y="0.000000" width="824.987793" height="824.987793" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="83.3333" result="effect_layerBlur_1"/>
+		</filter>
+		<filter id="filter_2_682_dd" x="223.756958" y="273.333984" width="824.987793" height="824.987793" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="83.3333" result="effect_layerBlur_1"/>
+		</filter>
+	</defs>
+	<g filter="url(#filter_2_679_dd)">
+		<circle id="Ellipse 42" cx="755.152344" cy="562.078003" r="163.571198" fill="#53C351" fill-opacity="0.330000"/>
+	</g>
+	<g filter="url(#filter_2_680_dd)">
+		<circle id="Ellipse 44" cx="426.226593" cy="635.691772" r="163.571198" fill="#53C351" fill-opacity="0.330000"/>
+	</g>
+	<g filter="url(#filter_2_681_dd)">
+		<circle id="Ellipse 41" cx="412.493896" cy="412.493896" r="162.493896" fill="#FFE978" fill-opacity="0.330000"/>
+	</g>
+	<g filter="url(#filter_2_682_dd)">
+		<circle id="Ellipse 43" cx="636.250854" cy="685.827881" r="162.493896" fill="#FFE978" fill-opacity="0.330000"/>
+	</g>
+</svg>
