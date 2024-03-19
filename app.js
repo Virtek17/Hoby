@@ -49,7 +49,6 @@ if (close) {
   })
 }
 
-
 // Поворачивает крестик
 document.addEventListener('DOMContentLoaded', function() {
   let openElements = document.querySelectorAll('.open');

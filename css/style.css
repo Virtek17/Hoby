@@ -7,9 +7,11 @@ a:focus {
 .user-select {
    user-select: none;
 }
+.hover-btn {
+   transition: all 0.5s 0s cubic-bezier(0.75, -1, 0.21, -1);
+}
 .hover-btn:hover {
    transform: scale(1.05);
-   transition: all 0.5s 0s cubic-bezier(0.75, -1, 0.21, -1);
 }
 body {
    font-family: "gilroysemibold", Arial, Helvetica, sans-serif;
@@ -59,7 +61,7 @@ body {
 }
 
 .login {
-   background-color: #0CA941;
+   background-color: #0f8135;
    color: #fff;
    width: 110px;
    height: 41px;
@@ -294,7 +296,7 @@ body {
    justify-content: center;
 }
 
-.shopNowLink {
+.shopNow {
    display: flex;
    column-gap: 8px;
 }
@@ -488,7 +490,7 @@ body {
 
 .main-text {
    font-size: 30px;
-   color: rgb(55, 74, 61);
+   color: rgb(51, 71, 57);
    font-family: 'Fredoka', sans-serif;
    line-height: 40px;
    max-width: 289px;
@@ -500,7 +502,7 @@ body {
    margin-top: 9px;
    max-width: 310px;
    line-height: 26px;
-   color: #707070;
+   color: #323131;
 }
 
 .achievmentsInNumbers {
@@ -516,7 +518,7 @@ body {
 
 .whatDoing {
    font-family: "gilroysemibold", Arial, Helvetica, sans-serif;
-   color: rgb(103, 133, 112);
+   color: rgb(62, 79, 67);
    line-height: 26px;
 }
 
@@ -657,7 +659,7 @@ body {
    transform: rotate(10deg);
 }
 
-.readMoreLink {
+.btnReadMore {
    display: flex;
    column-gap: 8px;
    align-items: center;
@@ -755,7 +757,7 @@ body {
 }
 
 .service__descripiton {
-   color: rgb(103, 133, 112);
+   color: rgb(72, 92, 78);
    font-family: "gilroymedium";
    line-height: 32px;
    max-width: 457px;
@@ -833,7 +835,7 @@ body {
    text-align: center;
    align-items: center;
    
-   color: rgb(103, 133, 112);
+   color: rgb(70, 90, 76);
    font-family: "gilroymedium";
    font-size: 16px;
    line-height: 24px;
@@ -860,6 +862,13 @@ body {
    row-gap: 30px;
 }
 
+.card-hover {
+   transition: transform 0.4s;
+}
+
+.card-hover:hover {
+   transform: scale(1.1);
+}
 
 @media (max-width: 1200px) {
    .professional-service {
@@ -1029,6 +1038,10 @@ body {
    line-height: 32px;
 }
 
+.ratingThisFlow {
+   color: rgb(75, 97, 81);
+}
+
 .footer-card {
    padding-top: 19px;
    display: flex;
@@ -1040,7 +1053,7 @@ body {
 }
 
 .prices {
-   color: rgb(103, 133, 112);
+   color: rgb(75, 97, 81);
    font-family: "gilroymedium";
    font-size: 12px;
    font-weight: 400;
@@ -1057,16 +1070,21 @@ body {
    border: 0.5px solid rgba(55, 74, 61, 0.36);
    border-radius: 10px;
    background: rgb(255, 255, 255);
-   color: rgb(103, 133, 112);
+   color: rgb(68, 87, 74);
    font-family: "gilroysemibold";
    font-size: 16px;
    font-weight: 600;
    line-height: 24px;
 
+   transition: transform 0.3s;
 }
 
 .button-card span {
    padding: 9px 19px;
+}
+
+.button-card:hover {
+   transform: scale(1.05);
 }
 
 @media (max-width: 1200px){
@@ -1144,7 +1162,7 @@ body {
 
 .application__description {
    padding-top: 30px;
-   color: rgb(103, 133, 112);
+   color: rgb(66, 84, 72);
    font-family: "gilroymedium";
    font-size: 18px;
    line-height: 32px;
@@ -1181,7 +1199,7 @@ form input::placeholder {
 
 form button {
    border-radius: 10px;
-   background: rgb(12, 169, 65);
+   background: rgb(11, 134, 52);
    width: 223.42px;
    height: 81.89px;
    position: absolute;
@@ -1281,7 +1299,7 @@ form button {
 
 .info li {
    font-family: 'gilroyregular';
-   color: rgb(103, 133, 112);
+   color: rgb(71, 90, 77);
    margin-bottom: 12px;
 }
 .info li:last-child{
@@ -1314,7 +1332,8 @@ form button {
 }
 
 .companyInfo__description {
-   color: rgb(103, 133, 112);
+   color: #374A3D;
+
    font-family: "gilroymedium";
    font-size: 18px;
    line-height: 32px;
@@ -1375,12 +1394,12 @@ h4 {
    margin-bottom: 20px;
 }
 
-
+/* 
 .company p{
    color:  rgb(55, 74, 61);
    font-family: "gilroymedium";
    margin-bottom: 12px;
-}
+} */
 
 .support p { 
    color: rgb(103, 133, 112);
@@ -1396,11 +1415,27 @@ h4 {
    margin-bottom: 20px;
 }
 
+
+.contact address,
+.contact a {
+   font-family: gilroyregular;
+   color: rgb(71, 90, 77);
+
+   margin-bottom: 12px;
+   font-style: normal;
+}
+
+
 .contact h5 {
    font-family: "gilroybold";
    color: rgb(55, 74, 61);
    margin-bottom: 7px;
 }
+
+.open svg {
+   color: rgb(103, 133, 112);
+}
+
 
 .decoration {
    position: relative;
@@ -1417,7 +1452,8 @@ h4 {
 
 .bcg7 {
    width: 590.55px;
-   height: 590.55px;
+   height: 200px;
+   background-size: 100% auto;
    filter: blur(68px);
    background: rgba(83, 195, 81, 0.33);
 
@@ -1430,7 +1466,9 @@ h4 {
 
 .bcg8 {
    width: 565.9px;
-   height: 565.9px;
+   /* height: 565.9px; */
+   height: 200px;
+   background-size: 100% auto;
    filter: blur(68px);
    background: rgba(255, 233, 120, 0.33);
 

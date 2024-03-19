@@ -6,10 +6,11 @@
    <link rel="stylesheet" href="css/reset_css.css">
    <link rel="stylesheet" href="css/fonts_style.css">
    <link rel="stylesheet" href="css/style.css">
-
+   
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap" rel="stylesheet">
+   <link rel="icon" type="img/x-icon" href="img/fav-icon/Frame.svg">
    <script src="app.js" defer></script>
    <title>Hobby</title>
 </head>
@@ -52,11 +53,9 @@
             <h2 class="beautiful__tagline">Make a <span>Beautiful Garden</span> with Your own Hand</h2>
             <p class="beautiful__litleText">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,</p>
             
-               <button class="shopNow btn hover-btn">
-                  <a href="#dreamplant" class="smooth-scroll shopNowLink user-select">
-                     <span>Show Now</span>
-                     <img src="img/icons/arow.svg" alt="">
-                  </a>
+               <button class="shopNow btn hover-btn user-select">
+                  <span>Show Now</span>
+                  <img src="img/icons/arow.svg" alt="">
                </button>
             <img src="img/icons/arrowSpiral.svg" alt="" class="arrow_spiral user-select">
 
@@ -99,10 +98,8 @@
                <p class="professional__description">Morbi magna metus, scelerisque at risus a, tristique laoreet orci. Duis posuere eros vel dui pulvinar, pulvinar molestie erat iaculis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia.</p>
 
                <button class="btn user-select hover-btn btnReadMore"> 
-                  <a href="#" class="readMoreLink">
-                     <span>Read More</span>
-                     <img src="img/icons/arow.svg" alt="Button ReadMore">
-                  </a>
+                  <span>Read More</span>
+                  <img src="img/icons/arow.svg" alt="Button ReadMore">
                </button>
 
                <img src="img/icons/arrowSpiral.svg" alt="" class="arrow_spiral2 user-select">
@@ -120,10 +117,8 @@
                </p>
 
                <button class="btn btnReadMore hover-btn user-select">
-                  <a href="#" class="readMoreLink">
-                     <span>Read More</span>
-                     <img src="img/icons/arow.svg" alt="Arrow">
-                  </a>
+                  <span>Read More</span>
+                  <img src="img/icons/arow.svg" alt="Arrow">
                </button>
 
                <img src="img/icons/arrowSpiral.svg" alt="Arrow spiral" class="arrow_spiral3 user-select">
@@ -132,7 +127,7 @@
             <div class="service__info_galery">
                
                <div class="card__collection1">
-                  <div class="card__plant1 card_style">
+                  <div class="card__plant1 card_style card-hover">
                      <div class="card-row card_style">
                         <img src="img/icons/plants1test.svg" alt="icon" class="">
                         <span>Plant Threes</span>
@@ -142,7 +137,7 @@
                </div>
 
                <div class="card__collection2">
-                  <div class="card__purning">
+                  <div class="card__purning card-hover">
                      <div class="card-row card_style">
                         <img src="img/icons/purningtest.svg" alt="icon">
                         <span>Pruning plants</span>
@@ -151,7 +146,7 @@
                   </div>
 
                   <div class="card__plant2">
-                     <div class="card-row card_style">
+                     <div class="card-row card_style card-hover">
                         <img src="img/icons/plants2test.svg" alt="icon">
                         <span>Plants Threes</span>
                         <p>There are many<br>variations of passages long established fact reader</p>
@@ -254,10 +249,10 @@
                   There are many variations of pass is ages of Lorem  available, but the majority have suffered alteration in  injected humour.
                </p>
                <div class="social-media">
-                  <div class="facebook click"><a href="#"><img src="img/icons/facebook.svg" alt=""></a></div>
-                  <div class="twitter click"><a href=""><img src="img/icons/twitter.svg" alt=""></a></div>
-                  <div class="pinterest click"><a href=""><img src="img/icons/pinterest.svg" alt=""></a></div>
-                  <div class="linkedin click"><a href=""><img src="img/icons/linkedin.svg" alt=""></a></div>
+                  <div class="facebook click"><a href="#"><img src="img/icons/facebook.svg" alt="link in facebook"></a></div>
+                  <div class="twitter click"><a href=""><img src="img/icons/twitter.svg" alt="link in twitter"></a></div>
+                  <div class="pinterest click"><a href=""><img src="img/icons/pinterest.svg" alt="link in pinterest"></a></div>
+                  <div class="linkedin click"><a href=""><img src="img/icons/linkedin.svg" alt="link in linkedin"></a></div>
                </div>
             </div>
             <div class="additional__info">
@@ -291,8 +286,25 @@
                      <li class="delet-element"><a href="#">Community</a></li>
                   </ul>
                </div>
+
                <div class="contact" id="contact">
-                  <ul>
+                  <div class="open">
+                     <h4>Contact</h4> 
+                     <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                           <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
+                        </svg>
+                     </span>
+                  </div>
+                  
+                  <address class="delet-element">Mirabazar-Subhanighat<br>Rd, Sylhet-Bangladesh</address>
+                  <p><h5 class="delet-element">Email Us</h5></p>
+                  <a class="delet-element" href="mailto:useremail@gmail.com">useremail@gmail.com</a>
+                  <p><h5 class="delet-element">Call Us</h5></p>
+                  <a class="delet-element" href="tel:+6221.2002.2012">+6221.2002.2012</a>
+               </div>
+               <!-- <div class="contact" id="contact">
+                  <ul>           
                      <li class="open"><h4>Contact</h4> <span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
                            <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2"/>
@@ -304,7 +316,7 @@
                      <li class="delet-element"><h5>Call Us</h5></li>
                      <li class="delet-element">+6221.2002.2012</li>
                   </ul>
-               </div>
+               </div> -->
             </div>
             
          </div>
